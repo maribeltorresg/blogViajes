@@ -49,3 +49,16 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #00b8e4;
 }
+/* Segundo nivel de navegacion */
+nav ul ul {
+    background-color: rgba(0, 184, 228, 0.7);
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li:hover {
+    background-color: rgba(0, 184, 228, 0.7);
+}
