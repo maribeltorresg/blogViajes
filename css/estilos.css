@@ -62,3 +62,47 @@ nav ul li:hover > ul {
 nav ul li:hover {
     background-color: rgba(0, 184, 228, 0.7);
 }
+/* Contenido principal */
+.contenido::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+main {
+    float: left;
+    padding-right: 40px;
+    width: 70%;
+}
+/* Entradas de posts */
+article {
+    margin-top: 30px;
+}
+h2 {
+    color: #00b8e4;
+    margin-bottom: 18px;
+}
+article img {
+    float: left;
+    margin-right: 30px;
+    width: 300px;
+}
+article p {
+    line-height: 2;
+    text-align: justify;
+}
+.boton {
+    background-color: #00b8e4;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px; 
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+aside {
+    float: right;
+    width: 30%;
+}
